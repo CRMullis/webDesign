@@ -1,9 +1,14 @@
 /*Starting a CSS document*/
 div {
-	color: black;
+	background-color: black;
 	height:50px;
-	width:50px;
+	width:100px;
+	color:red;
+	font-family: Arial;
+	text-align: center;
+	border-solid:inset;
+	border-color:black;
 }
 div:hover {
-	color: white;
+	background-color: white;
 }
